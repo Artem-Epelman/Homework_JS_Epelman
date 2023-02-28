@@ -8,13 +8,13 @@
 // -- Створити пустий масив. Наповнити його будь-якими значеннями звертаючись до конкретного індексу. Вивести в консоль
 
 
-			// let arrayNums = [1, 2, 3, 4, 5]
+			let arrayNums = [1, 2, 3, 4, 5]
 
-			// let arrayStrings = ['a', 'b', 'c', 'd', 'e']
+			let arrayStrings = ['a', 'b', 'c', 'd', 'e']
 
-			// let arrayBool = ['a', 'b', 'c', 'd', 'e', 1, 2, 3, 4, 5, true, false]
+			let arrayBool = ['a', 'b', 'c', 'd', 'e', 1, 2, 3, 4, 5, true, false]
 
-			// console.log(arrayNums, arrayStrings, arrayBool)
+			console.log(arrayNums, arrayStrings, arrayBool)
 			
 			
 			
@@ -24,34 +24,34 @@
 // - є масив [2,17,13,6,22,31,45,66,100,-18] :
 // 1. перебрати його циклом while
 
-			// let nums3 = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
+			let nums3 = [2, 17, 13, 6, 22, 31, 45, 66, 100, -18]
 
-			// i = 0
+			i = 0
 
-			// while(i <= nums.length) {
-				// i++
-				// console.log(nums[i])
-// }
+			while(i <= nums.length) {
+				i++
+				console.log(nums[i])
+}
 
 
 // 2. перебрати його циклом for
 
-			// for (let a = 0; a <= nums.length; a++) {
-				// console.log(nums[a])
-			// }
+			for (let a = 0; a <= nums.length; a++) {
+				console.log(nums[a])
+			}
 
 
 // 3. перебрати циклом while та вивести  числа тільки з непарним індексом
 
 
-			// let b = 0
+			let b = 0
 
-			// while (b <= nums.length) {
-				// b++
-				// if(b % 2===1) {
-					// console.log(nums[b])
-				// }
-			// }
+			while (b <= nums.length) {
+				b++
+				if(b % 2===1) {
+					console.log(nums[b])
+				}
+			}
 			
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом	
 
