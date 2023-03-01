@@ -199,7 +199,7 @@
 									new Cinderella('name5', 23 ,39), 
 									new Cinderella('name6', 24 ,41), 
 									new Cinderella('name7', 18 ,39), 
-									new Cinderella('Anna', 25 ,38),
+									new Cinderella('Anna' , 25 ,38),
 									new Cinderella('name9', 26 ,40) 
 								]
 								
@@ -229,7 +229,7 @@
 			
 // Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-			cinderellaFoo = cinderellasArray.find((e) => e.age === 18 && e.legSize === 39)
+			cinderellaFoo = cinderellasArray.find((e) => e.age === 25 && e.legSize === 38)
 
 			console.log(cinderellaFoo)
 
@@ -261,8 +261,8 @@
 
 
 
-car2.drive = (maxSpeed) => { console.log(( `їдемо зі швидкістю ${maxSpeed} км на годину`))}
-car2.drive(123)
+			car2.drive = (maxSpeed) => { console.log(( `їдемо зі швидкістю ${maxSpeed} км на годину`))}
+			car2.drive(123)
 
 
 
@@ -272,21 +272,21 @@ car2.drive(123)
 
 
 
-car2.info = (model, maxSpeed, manufacturer, year, capacity) => console.log(`model - ${model},`,
-	`maxSpeed - ${maxSpeed},`, `manufacturer - ${manufacturer},`, `year - ${year},`, `capacity - ${capacity}`)
+			car2.info = (model, maxSpeed, manufacturer, year, capacity) => console.log(`model - ${model},`,
+				`maxSpeed - ${maxSpeed},`, `manufacturer - ${manufacturer},`, `year - ${year},`, `capacity - ${capacity}`)
 
 
 
-car2.info('mazda', 280, 'Germany', 2001, 0.7)
+			car2.info('honda', 280, 'France', 2001, 1.8)
 
 
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 
 
 
-car2.increaseMaxSpeed = (newSpeed) => car2.maxSpeed = newSpeed
+			car2.increaseMaxSpeed = (newSpeed) => car2.maxSpeed = newSpeed
 
-car2.increaseMaxSpeed(280)
+			car2.increaseMaxSpeed(280)
 
 
 
@@ -295,9 +295,9 @@ car2.increaseMaxSpeed(280)
 
 
 
-car2.changeYear = (newValue) => car2.year = newValue
+			car2.changeYear = (newValue) => car2.year = newValue
 
-car2.changeYear(2003)
+			car2.changeYear(2003)
 
 
 
@@ -307,17 +307,17 @@ car2.changeYear(2003)
 
 
 
-car2.addDriver = (driver) => car2.driver = driver
+			car2.addDriver = (driver) => car2.driver = driver
 
-car2.addDriver([{'name': 'Stepan'}, {'age': 28}])
-
-
-car2.model = 'honda'
-car2.capacity = 1.2
-car2.manufacturer = 'France'
+			car2.addDriver([{'name': 'Stepan'}, {'age': 28}])
 
 
-console.log(car2)
+			car2.model = 'honda'
+			car2.capacity = 1.2
+			car2.manufacturer = 'France'
+
+
+			console.log(car2)
 
 
 
