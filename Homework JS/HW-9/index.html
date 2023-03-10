@@ -6,10 +6,95 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HW-9</title>
+    <style>
+        div {
+            background: silver;
+            width: 100px;
+            height: 200px;
+            margin: 30px;
+        }
+    </style>
 </head>
 <body>
 
-<script src='main.js'></script>
 
+
+
+
+
+
+<!-- - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача-->
+
+            <!--<form action="" name="f1">-->
+
+            <!--    <input type="number" name="submitAge" value="">-->
+
+            <!--    <input type="submit">-->
+
+            <!--</form>-->
+            <!--<script>-->
+            <!--    let f1 = document.forms.f1-->
+            <!--    let value = f1.submitAge-->
+
+            <!--    f1.onsubmit = function(ev) {-->
+            <!--        ev.preventDefault()-->
+
+            <!--        if (this.submitAge.value < 18) {-->
+            <!--            console.log('Age is lower than 18...')-->
+            <!--        } else if (this.submitAge.value == 18) {-->
+            <!--            console.log('Age is 18...')-->
+            <!--        } else {-->
+            <!--            console.log('Age is bigger than 18...');-->
+            <!--        }-->
+            <!--    }-->
+            <!--</script>-->
+
+
+
+
+
+<!--*** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.-->
+<!--При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.-->
+            <form name="f2">
+            <label>Кількість рядків <input type="number"
+                       name="count"
+            placeholder="Enter number..."></label>
+                <br>
+                <br>
+
+                <label>Кількість ячеєк  <input type="number"
+                              name="count"
+                placeholder="Enter number..."></label>
+                <br>
+                <br>
+
+                <label>Вміст ячеєк   <input type="text"
+                              name="content"
+                placeholder="Enter text..."></label>
+                <br>
+                <br>
+
+                <input type="submit" name="submitButton">
+            </form>
+<script>
+    let f2 = document.forms.f2
+
+
+    f2.addEventListener('submit', function(ev) {
+        ev.preventDefault()
+
+        let mainDiv = document.createElement('div')
+        document.body.append(mainDiv)
+        let div1 = document.createElement('div')
+        let div2 = document.createElement('div')
+        let div3 = document.createElement('div')
+        mainDiv.append(div1, div2, div3)})
+
+
+</script>
+
+
+
+<script src='main.js'></script>
 </body>
 </html>
