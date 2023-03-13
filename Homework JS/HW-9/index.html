@@ -53,42 +53,7 @@
 
 
 
-<!--*** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.-->
-<!--При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.-->
-            <form name="f2">
-            <label>Кількість рядків <input type="number"
-                       name="count"
-            placeholder="Enter number..."></label>
-                <br>
-                <br>
-
-                <label>Кількість ячеєк  <input type="number"
-                              name="count"
-                placeholder="Enter number..."></label>
-                <br>
-                <br>
-
-                <label>Вміст ячеєк   <input type="text"
-                              name="content"
-                placeholder="Enter text..."></label>
-                <br>
-                <br>
-
-                <input type="submit" name="submitButton">
-            </form>
 <script>
-    let f2 = document.forms.f2
-
-
-    f2.addEventListener('submit', function(ev) {
-        ev.preventDefault()
-
-        let mainDiv = document.createElement('div')
-        document.body.append(mainDiv)
-        let div1 = document.createElement('div')
-        let div2 = document.createElement('div')
-        let div3 = document.createElement('div')
-        mainDiv.append(div1, div2, div3)})
 
 
 </script>
