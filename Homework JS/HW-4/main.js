@@ -107,15 +107,13 @@ minNum(arrayNums)
  // Приклад sum([1,2,10]) //->13
 
 
-// function sum(arr) {
-//     let res = 0
-//     for (let num of arr) {
-//         res+=num
-//     } 
-//     console.log(res)
-// }
+function sum(array) {
+   let res = array[] * array[]
+    return res
 
-// sum(arrayNums)
+}
+
+sum([1,2])
 
 
 

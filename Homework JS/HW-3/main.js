@@ -131,20 +131,20 @@ let users = [
 //  - користувачів зі статусом false
 //  - користувачів які старші за 30 років
 
-for (key of users) {
+for (let key of users) {
 	if (key.status) {
 		console.log(key)
 	}
 }
 
-for (key of users) {
+for (let key of users) {
 	if (!key.status) {
 		console.log(key)
 	}
 }
 
 
-for (key of users) {
+for (let key of users) {
 	if (key.age > 30) {
 		console.log(key)
 	}
