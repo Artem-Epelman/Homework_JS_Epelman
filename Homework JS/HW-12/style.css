@@ -8,3 +8,7 @@ a {
 a:hover {
     color: red
 }
+
+div {
+    display: block;
+}
