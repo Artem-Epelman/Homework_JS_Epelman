@@ -220,7 +220,7 @@
 
 // За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 
-			for (let cindy of cinderellasArray) {
+			for (let cindy of cinderellasArray) {м
 				if (cindy.legSize === prince.slipperSize) {
 					console.log(`Принц ${prince.name} має взяти в дружину дівчину ${cindy.name}`)
 				}
